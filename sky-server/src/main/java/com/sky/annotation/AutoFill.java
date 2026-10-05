@@ -14,7 +14,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 //程序运行时仍然保留这个注解
-//TODO 注解的格式要了解
 public @interface AutoFill {
     //指定数据库操作类型：update Insert
     OperationType value(); // 表示这个注解必须传入一个操作类型
